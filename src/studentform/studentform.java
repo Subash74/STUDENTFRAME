@@ -62,6 +62,7 @@ public class studentform {
 		frame.getContentPane().add(lblName);
 		
 		textField = new JTextField();
+		textField.setToolTipText("ENTER YOUR FIRST NAME");
 		textField.setBounds(212, 55, 86, 20);
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
@@ -81,6 +82,7 @@ public class studentform {
 		frame.getContentPane().add(btnNewButton);
 		
 		textField_1 = new JTextField();
+		textField_1.setToolTipText("ENTER LAST NAME");
 		textField_1.setBounds(212, 107, 86, 20);
 		frame.getContentPane().add(textField_1);
 		textField_1.setColumns(10);
@@ -90,6 +92,7 @@ public class studentform {
 		frame.getContentPane().add(lblNewLabel);
 		
 		rdbtnNewRadioButton = new JRadioButton("M");
+		rdbtnNewRadioButton.setToolTipText("GENDER IS MALE");
 		rdbtnNewRadioButton.addItemListener(new ItemListener() {
 			public void itemStateChanged(ItemEvent arg0) {
 				gender="male";
